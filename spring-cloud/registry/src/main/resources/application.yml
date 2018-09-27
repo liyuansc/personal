@@ -1,0 +1,12 @@
+server:
+  port: 10000
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    # 不自我注册,每个注册中心本身也是客户端
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    # 关闭自我保护,自动踢断线客户端
+    enableSelfPreservation: false
