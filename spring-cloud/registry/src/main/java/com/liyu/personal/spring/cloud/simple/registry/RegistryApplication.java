@@ -1,12 +1,12 @@
-package com.liyu.personal.spring.cloud.simple.user;
+package com.liyu.personal.spring.cloud.simple.registry;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class UserApplication {
+public class RegistryApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class, args);
+        SpringApplication.run(RegistryApplication.class, args);
     }
 }
